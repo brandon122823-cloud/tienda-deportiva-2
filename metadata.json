@@ -1,0 +1,7 @@
+{
+  "name": "Richard Athletic",
+  "description": "Equipamiento deportivo de alto rendimiento para atletas implacables. Catálogo elite, ofertas relámpago, sucursales y gran inauguración.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

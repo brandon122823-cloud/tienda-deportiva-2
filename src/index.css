@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface: #121316;
+  --color-surface-dim: #121316;
+  --color-surface-bright: #38393c;
+  --color-surface-container-lowest: #0d0e11;
+  --color-surface-container-low: #1b1b1f;
+  --color-surface-container: #1f1f23;
+  --color-surface-container-high: #292a2d;
+  --color-surface-container-highest: #343538;
+  --color-on-surface: #e3e2e6;
+  --color-on-surface-variant: #c3c5d9;
+  --color-outline: #8d90a2;
+  --color-outline-variant: #434656;
+  --color-primary: #b6c4ff;
+  --color-on-primary: #002780;
+  --color-primary-container: #0055ff;
+  --color-on-primary-container: #e3e6ff;
+  --color-secondary: #ffb4a2;
+  --color-on-secondary: #621100;
+  --color-secondary-container: #ff562d;
+  --color-on-secondary-container: #560d00;
+  --color-tertiary: #00e55b;
+  --color-on-tertiary: #003911;
+  --color-tertiary-container: #00782c;
+  --color-on-tertiary-container: #8fff99;
+  --color-error: #ffb4ab;
+  --color-on-error: #690005;
+  --color-error-container: #93000a;
+  --font-headline: "Space Grotesk", sans-serif;
+  --font-body: "Lexend", sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: #121316;
+    color: #e3e2e6;
+    font-family: 'Lexend', sans-serif;
+    overscroll-behavior: none;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Material Symbols configuration */
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  font-feature-settings: 'liga';
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+.material-symbols-filled {
+  font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  display: none;
+}
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
